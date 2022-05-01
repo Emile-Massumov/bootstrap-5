@@ -10,20 +10,50 @@
 </head>
 <body>
 <!--header start here-->
-<header class="header p-3 position-absolute start-0 top-0 end-0"
-style="background-color:black">
-    <div class="d-flex justify-content-between align-items-center">
-<a href="/" class="text-decoration-none text-white fs-5 fw-bold"><émile massumov/></a>
-<div>
-<button>
-    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-      </svg>
-</button>
-</div>
-</div>
-</header>
+<header class="header p-3 position-absolute start-0 top-0 end-0"style="background-color:black">
+   <div class="d-flex justify-content-between align-items-center">
+     <a href="/" class="text-decoration-none text-white fs-5 fw-bold"><émile massumov/></a>
+       <div>
+        <button class="navbar-toggler text-white" type="button"
+        data-bs-toggle="collapse" data-bs-target="#navbar"
+        aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+              </svg>
+            </button>
+         </div>
+      </div>
+ </header>
+ <!--header end here-->
  
+<nav class="collapse navbar-collapse dropdown-nav" id="navbar">
+
+<div class="container-fluid">
+
+<div class="row align-items-start">
+    <div class="col-12 col-sm-4">
+       <a href="#" class="row text-decoration-none">
+     <div class="col-2 col-sm-12 mb-4">
+<img src="img/barber-hair-cut.jpg" alt="barber"class="img-fluid" width="300" height="400" loading="lazy">
+</div>
+
+<div class="col-10">
+    <h3>Salon de Barbier Origin</h3>
+    <p>HTML-CSS, JavaScript</p>
+    <p>Simple one page website for my client Barbershop Origin.<i class="bi bi-arrow-right-short"></i></p>
+</div>
+</a>
+</div>
+</div>
+<button class="navbar-toggler dropdown-nav__closeNavBtn" type="button"
+        data-bs-toggle="collapse" data-bs-target="#navbar"
+        aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+          </svg>
+            </button>
+        </nav>
+
 
     <script src="js/bootstrap.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
