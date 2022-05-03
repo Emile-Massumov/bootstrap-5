@@ -12,6 +12,49 @@ a:hover {color: var(--primary-color);}
     z-index: 2;
 }
 
+.container-custom {
+  
+    width: 100%;
+    padding: 0 1rem;
+    margin: 0 auto;
+}
+@media (min-width: 597px) {.container-custom { 
+    width: 50%;
+    float: left;
+    padding-left: 4rem;
+ }
+}
+@media (min-width: 720px) {.container-custom { 
+    width: 50%;
+    float: left;
+    padding-left: 4rem;
+ }
+}
+
+
+@media (min-width: 1200px) {.container-custom { 
+    width: 50%;
+    float: left;
+    padding-left: 4rem;
+ }
+}
+@media (min-width: 1400px) {.container-custom { 
+    width: 50%;
+    float: left;
+    padding-left: 4rem;
+ }
+}
+@media (min-width: 1600px) {.container-custom { 
+    width: 50%;
+    float: left;
+    padding-left: 4rem;
+ }
+}
+
+
+
+
+
 #navbar {
     position: fixed;
     left:0;
@@ -57,7 +100,7 @@ a:hover {color: var(--primary-color);}
     right: 0;
     bottom: 0;
     background-color: var(--primary-color);
-    opacity: 0.5;
+    opacity: 0;
     z-index: 1;
 }
 
