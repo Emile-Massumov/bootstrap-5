@@ -109,3 +109,37 @@ a:hover {color: var(--primary-color);}
     text-transform: uppercase;
 }
 
+.hero__content-width {
+    max-width: 540px;
+}
+
+.hero__scroll-btn {
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    transform: translateX(-50%);
+    z-index: 1;
+    color: var(--bs-body-bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+.hero__scroll-btn:hover {
+    color: var(--bs-body-bg);
+    opacity: 0.8;
+}
+
+.hero__scroll-btn .bi {
+    transition-delay: 0.8s;
+    animation: bounce 1s infinite alternate;
+}
+
+@keyframes bounce {
+    from {
+        transform: translateX(0px);
+    }
+    to {
+        transform: translateY(-10px);
+    }
+}
