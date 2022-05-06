@@ -34,9 +34,10 @@ a:hover {color: var(--primary-color);}
 
 @media (min-width: 1200px) {.container-custom { 
     width: 100%;
-    float: left;
-    padding-left: 4rem;
+   
  }
+
+
 }
 @media (min-width: 1400px) {.container-custom { 
     width: 100%;
@@ -147,6 +148,17 @@ a:hover {color: var(--primary-color);}
     max-width: 456px;
     margin: 0 auto;
 }
+.steps {
+    padding: 0 40px;
+}
+
+
+.image-size {
+    height:500px;
+    width: 100%;
+}
+
+
 
 
 @media (min-width: 544px) {
