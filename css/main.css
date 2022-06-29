@@ -90,8 +90,10 @@ a:hover {color: var(--primary-color);}
     height: auto;
     transform: translateX(-50%) translateY(-50%);
 }
+
+
 .hero__overplay {
-    position: absolute;
+    position:absolute;
     left: 0;
     top: 0;
     right: 0;
@@ -100,6 +102,7 @@ a:hover {color: var(--primary-color);}
     opacity: 0;
     z-index: 1;
 }
+
 
 .text-white a{
     letter-spacing: 0.25rem;
@@ -159,7 +162,9 @@ a:hover {color: var(--primary-color);}
     width: 100%;
 }
 
-
+.cc-background {
+    background-color: black;
+}
 
 
 @media (min-width: 544px) {
