@@ -165,6 +165,9 @@ a:hover {color: var(--primary-color);}
 .cc-background {
     background-color: black;
 }
+span {
+    font-size: 10px;
+}
 
 
 @media (min-width: 544px) {
