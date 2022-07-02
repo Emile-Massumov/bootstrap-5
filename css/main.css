@@ -81,7 +81,7 @@ a:hover {color: var(--primary-color);}
     object-fit: cover;
 }
 .hero__video {
-    position: absolute;
+    position:absolute;
     top: 50%;
     left: 50%;
     min-width: 100%;
@@ -93,7 +93,7 @@ a:hover {color: var(--primary-color);}
 
 
 .hero__overplay {
-    position:absolute;
+    position:relative;
     left: 0;
     top: 0;
     right: 0;
