@@ -12,6 +12,7 @@ a:hover {color: var(--primary-color);}
     z-index: 2;
 }
 
+
 .container-custom {
   
     width: 100%;
@@ -105,8 +106,10 @@ a:hover {color: var(--primary-color);}
 
 
 .text-white a{
-    letter-spacing: 0.25rem;
+    letter-spacing: 0.06rem;
     text-transform: uppercase;
+    font-family: ;
+    
 }
 
 .hero__content-width {
