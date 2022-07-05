@@ -17,6 +17,7 @@ p {
     letter-spacing: 0.08em;
     font-size: 18px;
 }
+
 .header {
     z-index: 2;
 }
@@ -29,7 +30,11 @@ p {
   
 }
 
-
+.carousel-item {
+    height: 32rem;
+    padding: 60px;
+    color: #fff;
+}
 .container-custom {
   
     width: 100%;
