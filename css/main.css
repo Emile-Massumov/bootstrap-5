@@ -8,6 +8,15 @@
 a {color: var(--primary-color);}
 a:hover {color: var(--primary-color);}
 
+a {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-family: 'Prata', serif;
+    letter-spacing: 0.08em;
+    font-size: 18px;
+}
 .header {
     z-index: 2;
 }
