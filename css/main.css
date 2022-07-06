@@ -31,9 +31,8 @@ p {
 }
 
 .carousel-item {
-    height: 32rem;
-    padding: 60px;
-    color: #fff;
+   background-position: center;
+   background-size: cover;
 }
 
 
