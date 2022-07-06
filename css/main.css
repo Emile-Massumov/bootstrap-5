@@ -47,6 +47,8 @@ p {
     float: left;
     padding-left: 4rem;
  }
+
+
 }
 @media (min-width: 720px) {.container-custom { 
     width: 100%;
@@ -180,6 +182,9 @@ p {
 }
 .steps {
     padding: 0 40px;
+}
+.cc-steps {
+    padding: 40px 40px;
 }
 
 
