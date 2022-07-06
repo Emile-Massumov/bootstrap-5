@@ -14,8 +14,8 @@ a {
 
 p {
     font-family: 'Prata', serif;
-    letter-spacing: 0.08em;
     font-size: 18px;
+    text-align:justify;
 }
 
 .header {
@@ -48,8 +48,17 @@ p {
     padding-left: 4rem;
  }
 
-
+ .video-text {
+    display:none;
 }
+}
+
+@media (min-width: 360px) {
+  .video-text {
+    display:none;
+}
+}
+
 @media (min-width: 720px) {.container-custom { 
     width: 100%;
     float: left;
@@ -212,6 +221,9 @@ span {
     }
     .steps__section-thumbnail {
         height: auto;
+    }
+    .video-text {
+        display:none;
     }
   
  }
