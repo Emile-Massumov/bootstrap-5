@@ -35,6 +35,9 @@ p {
    background-size: cover;
 }
 
+.row {
+    --bs-gutter-y: 1.5rem !important;
+}
 
 .container-custom {
   
