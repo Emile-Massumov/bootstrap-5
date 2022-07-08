@@ -45,6 +45,8 @@ p {
     padding: 0 1rem;
     margin: 0 auto;
 }
+
+
 @media (min-width: 597px) {.container-custom { 
     width: 100%;
     float: left;
@@ -70,12 +72,11 @@ p {
 }
 
 
-@media (min-width: 1200px) {.container-custom { 
+@media (min-width: 1200px) {
+    .container-custom { 
     width: 100%;
-   
- }
-
-
+    
+   }
 
 }
 @media (min-width: 1400px) {.container-custom { 
@@ -101,7 +102,8 @@ p {
 }
 
 .container-fluid {
-    width: 50% !important;
+    width: 70% !important;
+    
 }
 
 .dropdown-nav__closeNavBtn {
