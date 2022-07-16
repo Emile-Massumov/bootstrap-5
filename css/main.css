@@ -12,6 +12,10 @@ a {
     font-family: 'Open Sans', sans-serif;
 }
 
+li a:hover {
+    color: aquamarine !important;
+}
+
 p {
     font-family: 'Prata', serif;
     font-size: 18px;
