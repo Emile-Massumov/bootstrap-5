@@ -10,12 +10,42 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <title>Salon de Barbier Origin</title>
+</head>
 
-  </head>
+<style>
+#btnScrollToTop {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #e62739;
+  box-shadow: 0 0 10px rgba(0,0,0,0.25);
+  color:#fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+#btnScrollToTop:active {
+  background: #673237;
+
+}
+  </style>
+
 <body>
-<!--header start here-->
-<nav class="cc-navbar navbar justify-content-between align-items-center d-flex navbar-expand-lg position-fixed w-100 navbar-dark">
+  <!--Scroll buttom up start here-->
+
+  <button id="btnScrollToTop">
+     <i class="material-icons">arrow_circle_up</i>
+  </button>
+
+  <!--header start here-->
+<nav class="cc-navbar navbar justify-content-between align-items-center d-flex navbar-expand-lg w-100 navbar-dark">
   <div class="container-fluid">
     <ul class="nav justify-content-end list-unstyled d-flex text-white">
       <li class=""><a class="text-white" href="https://www.facebook.com/originbarbier" target="_blank"><i class="bi bi-facebook"></i></a></li>
@@ -133,13 +163,7 @@ align-items-md-center">
       </a>
     </section>
 <!--Hero end -->
-<section class="d-flex justify-content-center align-items-center">
-<audio controls autoplay="autoplay" playsinline loop-infinite>
-  <source src="./audio/Ozuna_-_G_WAGON.mp3" type="audio/mp3">
-  <source src="./audio/Ozuna_-_G_WAGON.mp3" type="audio/wav">
-  <source src="./audio/Ozuna_-_G_WAGON.mp3" type="audio/mpeg">
-</audio>
-</section>
+
 
 <!--section location start -->
 <section class="container my-5" id="succursale">
@@ -306,11 +330,21 @@ loading="lazy">
 <i class="fas fa-arrow-up"></i>
 </button>
 
-
-
-
-
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script>
+  const  btnScrollToTop = document.querySelector ("#btnScrollToTop");
+
+  btnScrollToTop.addEventListener("click", function() {
+
+    window.scrollTo ({
+      top: 0,
+      left: 0,
+      behavior: "smooth"
+    });
+  });
+
+  
+
+</script>
 </body>
 </html>
