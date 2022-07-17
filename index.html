@@ -21,7 +21,7 @@
 
 <body>
 <!--header start here-->
-<nav class="cc-navbar navbar justify-content-between align-items-center d-flex navbar-expand-lg w-100 navbar-dark">
+<nav class="cc-navbar navbar justify-content-between align-items-center position-fixed d-flex navbar-expand-lg w-100 navbar-dark">
   <div class="container-fluid">
     <ul class="nav justify-content-end list-unstyled d-flex text-white">
       <li class=""><a class="text-white" href="https://www.facebook.com/originbarbier" target="_blank"><i class="bi bi-facebook"></i></a></li>
@@ -34,19 +34,19 @@
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
        
         <li class="nav-item ">
-          <a class="nav-link text-white text-uppercase" href="#quisommenous">Qui somme nous</a>
+          <a class="nav-link text-white text-uppercase js-scroll-trigger" href="#quisommenous">Qui somme nous</a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link text-white text-uppercase" href="#gallery">Gallery</a>
+          <a class="nav-link text-white text-uppercase js-scroll-trigger" href="#gallery">Gallery</a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link text-white text-uppercase" href="#succursale">Succursale</a>
+          <a class="nav-link text-white text-uppercase js-scroll-trigger" href="#succursale">Succursale</a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link text-white text-uppercase" href="#produits">Produits</a>
+          <a class="nav-link text-white text-uppercase js-scroll-trigger" href="#produits">Produits</a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link text-white text-uppercase" href="#">Contact</a>
+          <a class="nav-link text-white text-uppercase js-scroll-trigger" href="#">Contact</a>
         </li>
       </ul>
      
@@ -307,6 +307,12 @@ loading="lazy">
 </button>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+<script type="text/javascript">    
+  $('.js-scroll-trigger').click(function() {
+$('.navbar-collapse').collapse('hide');
+});
+</script>
 
 </body>
 </html>
