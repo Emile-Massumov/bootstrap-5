@@ -5,11 +5,14 @@
     --bs-body-font-family:'Montserrat', sans-serif;
 }
 
+body {
+    font-family: 'Assistant', sans-serif;
+}
 a {color: var(--primary-color);}
 a:hover {color: var(--primary-color);}
 
 a {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Assistant', sans-serif;
 }
 
 li a:hover {
@@ -17,9 +20,9 @@ li a:hover {
 }
 
 p {
-    font-family: 'Prata', serif;
     font-size: 18px;
     text-align:justify;
+    font-family: 'Assistant', sans-serif;
 }
 
 .header {
@@ -87,6 +90,11 @@ p {
     width: 100%;
     
    }
+
+   p {
+    font-size: 20px;
+    font-family: 'Assistant', sans-serif;
+}
 
 }
 @media (min-width: 1400px) {.container-custom { 
