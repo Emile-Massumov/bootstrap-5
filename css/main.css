@@ -5,6 +5,10 @@
     --bs-body-font-family:'Montserrat', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Assistant', sans-serif;
 }
@@ -60,7 +64,6 @@ p {
   }
 
   #progress {
-    background-color: rgb(244, 8, 8);
     position: fixed;
     bottom: 20px;
     right: 5px;
