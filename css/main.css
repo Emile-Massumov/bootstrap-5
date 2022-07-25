@@ -50,6 +50,13 @@ p {
     --bs-gutter-y: 1.5rem !important;
 }
 
+.card {
+    position: unset !important;
+}
+.carousel-item {
+    position: unset !important;
+}
+
 .container-custom {
   
     width: 100%;
