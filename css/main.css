@@ -258,7 +258,7 @@ p {
     padding: 40px 40px;
 }
 
-/**Pruduct image start here **/
+/**Product image start here **/
 .image-size {
     height:350px;
     width: 100%;
@@ -283,6 +283,7 @@ p {
      justify-content: center;
      opacity: 0;
      transition: opacity 0.25s;
+     padding: 0 23px;
 }
 
 .image__overlay > * {
@@ -313,6 +314,10 @@ p {
     font-size: 1.25em;
     font-family: 'Assistant', sans-serif;
     margin-top: 0.25em;
+}
+.size-desc {
+    font-size: 16px;
+    text-align: justify;
 }
 
 .cc-image-size {
