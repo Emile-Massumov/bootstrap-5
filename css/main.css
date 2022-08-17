@@ -94,6 +94,10 @@ p {
     font-size: 20px;
     color: #0a1118;
   }
+  .size-desc {
+    font-size: 10px;
+    text-align: left;
+}
 
 
 @media (min-width: 597px) {.container-custom { 
@@ -124,12 +128,16 @@ p {
 @media (min-width: 1200px) {
     .container-custom { 
     width: 100%;
-    
-   }
+    }
 
    p {
     font-size: 20px;
     font-family: 'Assistant', sans-serif;
+}
+
+.size-desc {
+    font-size: 18px;
+    text-align: left;
 }
 
 }
@@ -315,10 +323,7 @@ p {
     font-family: 'Assistant', sans-serif;
     margin-top: 0.25em;
 }
-.size-desc {
-    font-size: 18px;
-    text-align: left;
-}
+
 
 .cc-image-size {
     height:300px;
